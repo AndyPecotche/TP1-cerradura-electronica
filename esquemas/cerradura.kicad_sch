@@ -4026,7 +4026,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 127) (xy 142.24 125.73)
+			(xy 149.86 127) (xy 149.86 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4066,7 +4066,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 113.03) (xy 125.73 120.65)
+			(xy 133.35 113.03) (xy 133.35 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4156,7 +4156,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 127) (xy 147.32 125.73)
+			(xy 154.94 127) (xy 154.94 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4296,7 +4296,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 127) (xy 137.16 125.73)
+			(xy 144.78 127) (xy 144.78 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4326,7 +4326,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 127) (xy 152.4 125.73)
+			(xy 160.02 127) (xy 160.02 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4346,7 +4346,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 127) (xy 139.7 113.03)
+			(xy 147.32 127) (xy 147.32 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4436,7 +4436,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 113.03) (xy 125.73 113.03)
+			(xy 147.32 113.03) (xy 133.35 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4446,7 +4446,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 127) (xy 144.78 125.73)
+			(xy 152.4 127) (xy 152.4 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4456,7 +4456,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 123.19) (xy 134.62 127)
+			(xy 142.24 123.19) (xy 142.24 127)
 		)
 		(stroke
 			(width 0)
@@ -4506,7 +4506,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 127) (xy 149.86 125.73)
+			(xy 157.48 127) (xy 157.48 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4546,7 +4546,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 123.19) (xy 134.62 123.19)
+			(xy 138.43 123.19) (xy 142.24 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4596,7 +4596,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 120.65) (xy 130.81 123.19)
+			(xy 138.43 120.65) (xy 138.43 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4765,7 +4765,7 @@
 		(uuid "4fa654e9-8281-4272-a1e9-989095d871cb")
 	)
 	(label "rc522-irq"
-		(at 142.24 125.73 90)
+		(at 149.86 125.73 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4855,7 +4855,7 @@
 		(uuid "771e6b56-7133-4520-83f9-919a1074d2a9")
 	)
 	(label "rc522-sck"
-		(at 149.86 125.73 90)
+		(at 157.48 125.73 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4895,7 +4895,7 @@
 		(uuid "81d7175d-fdc6-4434-87dd-119870453992")
 	)
 	(label "rc522-ss"
-		(at 152.4 125.73 90)
+		(at 160.02 125.73 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4915,7 +4915,7 @@
 		(uuid "8383df52-1b73-4526-8b02-336bfa77de78")
 	)
 	(label "rc522-mosi"
-		(at 147.32 125.73 90)
+		(at 154.94 125.73 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4935,7 +4935,7 @@
 		(uuid "87b2a5af-7976-4dc2-a7b7-65e33a3e57f3")
 	)
 	(label "rc522-rst"
-		(at 137.16 125.73 90)
+		(at 144.78 125.73 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4955,7 +4955,7 @@
 		(uuid "8bc1e0ac-5521-4009-b847-484f202a1ae6")
 	)
 	(label "rc522-miso"
-		(at 144.78 125.73 90)
+		(at 152.4 125.73 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5340,7 +5340,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 130.81 120.65 0)
+		(at 138.43 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5348,7 +5348,7 @@
 		(dnp no)
 		(uuid "22e4b2fd-348e-4ab3-bf58-4b85b772b2d0")
 		(property "Reference" "#PWR09"
-			(at 130.81 124.46 0)
+			(at 138.43 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5357,7 +5357,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 130.556 116.586 0)
+			(at 138.176 116.586 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5365,7 +5365,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 120.65 0)
+			(at 138.43 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5374,7 +5374,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 120.65 0)
+			(at 138.43 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5383,7 +5383,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 130.81 120.65 0)
+			(at 138.43 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6719,7 +6719,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 125.73 120.65 0)
+		(at 133.35 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6727,7 +6727,7 @@
 		(dnp no)
 		(uuid "d2bf814e-e106-43ac-92e5-3003ac008a45")
 		(property "Reference" "#PWR08"
-			(at 125.73 127 0)
+			(at 133.35 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6736,7 +6736,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 125.73 125.222 0)
+			(at 133.35 125.222 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6744,7 +6744,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 120.65 0)
+			(at 133.35 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6753,7 +6753,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 120.65 0)
+			(at 133.35 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6762,7 +6762,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 120.65 0)
+			(at 133.35 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7108,7 +7108,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x08_Socket")
-		(at 142.24 132.08 90)
+		(at 149.86 132.08 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7117,7 +7117,7 @@
 		(dnp no)
 		(uuid "f2c3a317-9820-4859-bbc2-5538a2a48e5a")
 		(property "Reference" "J7"
-			(at 143.51 137.16 90)
+			(at 151.13 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7125,7 +7125,7 @@
 			)
 		)
 		(property "Value" "RC522_sensor"
-			(at 143.51 134.62 90)
+			(at 151.13 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7133,7 +7133,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 142.24 132.08 0)
+			(at 149.86 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7142,7 +7142,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 132.08 0)
+			(at 149.86 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7151,7 +7151,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated"
-			(at 142.24 132.08 0)
+			(at 149.86 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
