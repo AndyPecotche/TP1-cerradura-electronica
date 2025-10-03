@@ -5346,7 +5346,7 @@
 	)
 	(text_box "Conectores de 2x40 hembra para EDU-CIAA"
 		(exclude_from_sim no)
-		(at 99.06 27.94 0)
+		(at 105.41 30.48 0)
 		(size 25.4 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -5406,7 +5406,7 @@
 	)
 	(text_box "ESP32-C3 mini para modulo WiFi, protocolo UART con firmware AT"
 		(exclude_from_sim no)
-		(at 180.34 50.8 0)
+		(at 198.12 35.56 0)
 		(size 25.4 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -5465,7 +5465,7 @@
 		(uuid "f19910ca-1c29-4915-ba45-19c9a7659076")
 	)
 	(junction
-		(at 208.28 35.56)
+		(at 199.39 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "09ec5026-22f4-40fd-9e53-9187791c0ddc")
@@ -5483,7 +5483,7 @@
 		(uuid "383c75dd-e6ea-4690-8c02-996c436a8fb2")
 	)
 	(junction
-		(at 208.28 30.48)
+		(at 199.39 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f4002ba-f486-4066-95c4-30313200065a")
@@ -5630,7 +5630,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 34.29) (xy 208.28 34.29)
+			(xy 208.28 96.52) (xy 199.39 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5700,7 +5700,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 31.75) (xy 237.49 31.75)
+			(xy 232.41 93.98) (xy 228.6 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5810,7 +5810,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 72.39) (xy 201.93 72.39)
+			(xy 231.14 57.15) (xy 219.71 57.15)
 		)
 		(stroke
 			(width 0)
@@ -5820,7 +5820,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 27.94) (xy 208.28 30.48)
+			(xy 199.39 90.17) (xy 199.39 92.71)
 		)
 		(stroke
 			(width 0)
@@ -5880,7 +5880,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 31.75) (xy 208.28 30.48)
+			(xy 199.39 93.98) (xy 199.39 92.71)
 		)
 		(stroke
 			(width 0)
@@ -5890,7 +5890,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 69.85) (xy 218.44 69.85)
+			(xy 219.71 54.61) (xy 236.22 54.61)
 		)
 		(stroke
 			(width 0)
@@ -5940,7 +5940,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 31.75) (xy 208.28 31.75)
+			(xy 208.28 93.98) (xy 199.39 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5980,7 +5980,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 34.29) (xy 237.49 34.29)
+			(xy 232.41 96.52) (xy 228.6 96.52)
 		)
 		(stroke
 			(width 0)
@@ -6150,7 +6150,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 69.85) (xy 218.44 68.58)
+			(xy 236.22 54.61) (xy 236.22 53.34)
 		)
 		(stroke
 			(width 0)
@@ -6210,7 +6210,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 35.56) (xy 208.28 35.56)
+			(xy 195.58 97.79) (xy 199.39 97.79)
 		)
 		(stroke
 			(width 0)
@@ -6260,7 +6260,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 30.48) (xy 204.47 30.48)
+			(xy 199.39 92.71) (xy 195.58 92.71)
 		)
 		(stroke
 			(width 0)
@@ -6280,7 +6280,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 34.29) (xy 208.28 35.56)
+			(xy 199.39 96.52) (xy 199.39 97.79)
 		)
 		(stroke
 			(width 0)
@@ -6399,7 +6399,7 @@
 		(uuid "109bb3c9-eb31-47d7-8cd4-b5aeabb56336")
 	)
 	(label "esp32_rx"
-		(at 179.07 72.39 180)
+		(at 196.85 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6439,7 +6439,7 @@
 		(uuid "228e0bc3-bba4-452f-b0a7-d4570e85ebe7")
 	)
 	(label "esp32_tx"
-		(at 179.07 74.93 180)
+		(at 196.85 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6537,6 +6537,16 @@
 			(justify right bottom)
 		)
 		(uuid "5e27839a-fea8-479e-94f5-9120e6b7d307")
+	)
+	(label "rc522-irq"
+		(at 93.98 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f14650b-3144-442f-a26a-36f1b5018fe2")
 	)
 	(label "kp_c1"
 		(at 129.54 91.44 180)
@@ -7239,7 +7249,7 @@
 	(symbol
 		(lib_name "Conn_01x08_Socket_1")
 		(lib_id "Connector:Conn_01x08_Socket")
-		(at 196.85 77.47 0)
+		(at 214.63 62.23 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7248,7 +7258,7 @@
 		(dnp no)
 		(uuid "33988b7a-f00f-4660-9350-4feb040f42f6")
 		(property "Reference" "J5"
-			(at 195.58 77.4699 0)
+			(at 213.36 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7257,7 +7267,7 @@
 			)
 		)
 		(property "Value" "ESP32_LEFT_SOCKET"
-			(at 212.09 65.786 0)
+			(at 229.87 50.546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7266,7 +7276,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-08A_1x08_P2.54mm_Vertical"
-			(at 196.85 77.47 0)
+			(at 214.63 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7275,7 +7285,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.85 77.47 0)
+			(at 214.63 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7284,7 +7294,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated"
-			(at 196.85 77.47 0)
+			(at 214.63 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7400,7 +7410,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 208.28 35.56 0)
+		(at 199.39 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7409,7 +7419,7 @@
 		(fields_autoplaced yes)
 		(uuid "4487cfa7-7269-4548-981d-d9acb26a62ca")
 		(property "Reference" "#PWR023"
-			(at 208.28 41.91 0)
+			(at 199.39 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7418,7 +7428,7 @@
 			)
 		)
 		(property "Value" "GND-12"
-			(at 208.28 40.64 0)
+			(at 199.39 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7426,7 +7436,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 35.56 0)
+			(at 199.39 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7435,7 +7445,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 35.56 0)
+			(at 199.39 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7444,7 +7454,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 208.28 35.56 0)
+			(at 199.39 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7761,7 +7771,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 208.28 27.94 0)
+		(at 199.39 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7770,7 +7780,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d69c7af-cf53-4559-aae6-37ab6f55fd50")
 		(property "Reference" "#PWR018"
-			(at 208.28 31.75 0)
+			(at 199.39 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7779,7 +7789,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 208.28 22.86 0)
+			(at 199.39 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7787,7 +7797,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 27.94 0)
+			(at 199.39 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7796,7 +7806,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 27.94 0)
+			(at 199.39 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7805,7 +7815,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 208.28 27.94 0)
+			(at 199.39 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7958,7 +7968,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Jack-DC")
-		(at 196.85 33.02 0)
+		(at 187.96 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7967,7 +7977,7 @@
 		(fields_autoplaced yes)
 		(uuid "614641ac-31cf-4c2d-96c0-d102b572b04e")
 		(property "Reference" "J11"
-			(at 196.85 24.13 0)
+			(at 187.96 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7975,7 +7985,7 @@
 			)
 		)
 		(property "Value" "Jack-DC"
-			(at 196.85 26.67 0)
+			(at 187.96 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7983,7 +7993,7 @@
 			)
 		)
 		(property "Footprint" "Connector_BarrelJack:BarrelJack_SwitchcraftConxall_RAPC10U_Horizontal"
-			(at 198.12 34.036 0)
+			(at 189.23 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7992,7 +8002,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 198.12 34.036 0)
+			(at 189.23 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8001,7 +8011,7 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack"
-			(at 196.85 33.02 0)
+			(at 187.96 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8027,7 +8037,7 @@
 	(symbol
 		(lib_name "Conn_01x08_Socket_2")
 		(lib_id "Connector:Conn_01x08_Socket")
-		(at 184.15 77.47 0)
+		(at 201.93 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8035,7 +8045,7 @@
 		(dnp no)
 		(uuid "65fd82c6-1254-4a59-a5f8-56dbb4a3831a")
 		(property "Reference" "J9"
-			(at 181.61 64.262 0)
+			(at 199.39 49.022 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8043,7 +8053,7 @@
 			)
 		)
 		(property "Value" "ESP32_R_SOCKET"
-			(at 181.102 66.802 0)
+			(at 198.882 51.562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8051,7 +8061,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 77.47 0)
+			(at 201.93 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8060,7 +8070,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 184.15 77.47 0)
+			(at 201.93 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8069,7 +8079,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated"
-			(at 184.15 77.47 0)
+			(at 201.93 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8373,7 +8383,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x02_Counter_Clockwise")
-		(at 228.6 31.75 0)
+		(at 219.71 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8381,15 +8391,15 @@
 		(dnp no)
 		(uuid "86659171-897b-43a2-b3c3-d4a6ce37790a")
 		(property "Reference" "J10"
-			(at 229.87 25.4 0)
+			(at 220.98 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "HW-677 DC-DC"
-			(at 229.87 27.94 0)
+		(property "Value" "lm2596hvs DC-DC"
+			(at 220.98 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8397,7 +8407,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_2x02_P2.00mm_Vertical_SMD"
-			(at 228.6 31.75 0)
+			(at 219.71 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8406,7 +8416,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 31.75 0)
+			(at 219.71 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8415,7 +8425,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 228.6 31.75 0)
+			(at 219.71 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8446,7 +8456,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 213.36 72.39 0)
+		(at 231.14 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8455,7 +8465,7 @@
 		(fields_autoplaced yes)
 		(uuid "8af26b38-3a0f-405a-8549-ba057392ed6e")
 		(property "Reference" "#PWR020"
-			(at 213.36 78.74 0)
+			(at 231.14 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8464,7 +8474,7 @@
 			)
 		)
 		(property "Value" "GNDp2"
-			(at 213.36 77.47 0)
+			(at 231.14 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8472,7 +8482,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 72.39 0)
+			(at 231.14 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8481,7 +8491,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 72.39 0)
+			(at 231.14 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8490,7 +8500,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 213.36 72.39 0)
+			(at 231.14 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9005,7 +9015,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 218.44 68.58 0)
+		(at 236.22 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9013,7 +9023,7 @@
 		(dnp no)
 		(uuid "cc5285ce-6557-49d1-935a-cfeb778e38e3")
 		(property "Reference" "#PWR04"
-			(at 218.44 72.39 0)
+			(at 236.22 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9022,7 +9032,7 @@
 			)
 		)
 		(property "Value" "+5Vp2"
-			(at 218.44 63.5 0)
+			(at 236.22 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9030,7 +9040,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 68.58 0)
+			(at 236.22 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9039,7 +9049,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 68.58 0)
+			(at 236.22 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9048,7 +9058,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 218.44 68.58 0)
+			(at 236.22 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9660,7 +9670,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 246.38 31.75 0)
+		(at 237.49 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9669,7 +9679,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee0e33e3-0bc6-45f1-ae1c-50752a097c8a")
 		(property "Reference" "J12"
-			(at 248.92 31.7499 0)
+			(at 240.03 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9678,7 +9688,7 @@
 			)
 		)
 		(property "Value" "brones_5v"
-			(at 248.92 34.2899 0)
+			(at 240.03 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9687,7 +9697,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm"
-			(at 246.38 31.75 0)
+			(at 237.49 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9696,7 +9706,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 31.75 0)
+			(at 237.49 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9705,7 +9715,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 246.38 31.75 0)
+			(at 237.49 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
