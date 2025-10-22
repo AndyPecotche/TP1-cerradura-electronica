@@ -7580,7 +7580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47734014-7027-4b85-b1db-75e62e81e332")
-		(property "Reference" "12V-BORN"
+		(property "Reference" "12V-BORN1"
 			(at 190.5 86.36 0)
 			(effects
 				(font
@@ -7632,7 +7632,7 @@
 		(instances
 			(project "cerradura"
 				(path "/5ec40689-7e61-4c5f-9022-56a5e47f7bec"
-					(reference "12V-BORN")
+					(reference "12V-BORN1")
 					(unit 1)
 				)
 			)
