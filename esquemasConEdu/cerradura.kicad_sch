@@ -5879,6 +5879,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 55.88) (xy 93.98 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89ddbb12-8c7a-4122-9419-8fbf11f22e02")
+	)
+	(wire
+		(pts
 			(xy 252.73 93.98) (xy 256.54 93.98)
 		)
 		(stroke
@@ -6259,6 +6269,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 58.42) (xy 96.52 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee35de29-0219-4267-bd13-739e1b4a7bfc")
+	)
+	(wire
+		(pts
 			(xy 199.39 92.71) (xy 195.58 92.71)
 		)
 		(stroke
@@ -6577,6 +6597,16 @@
 		)
 		(uuid "64fb2743-d6fa-45f3-9dec-4f8a2fae37b4")
 	)
+	(label "buzzer_sgn"
+		(at 96.52 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "66a28856-0e75-4cbb-aa2d-bd3be435b932")
+	)
 	(label "kp_f2"
 		(at 104.14 121.92 90)
 		(effects
@@ -6747,16 +6777,6 @@
 		)
 		(uuid "9e6b53b8-1ca5-4356-8687-87f42286379d")
 	)
-	(label "door_sensor"
-		(at 93.98 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a6e55698-63fc-4ac0-a926-a6790a0a923e")
-	)
 	(label "kp_f3"
 		(at 129.54 96.52 180)
 		(effects
@@ -6787,16 +6807,6 @@
 		)
 		(uuid "ae9d8911-a8fa-4a1c-8a82-2eca878a0c26")
 	)
-	(label "buzzer_sgn"
-		(at 93.98 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "af16125a-9d99-4239-bc55-a6e543624cda")
-	)
 	(label "kp_c1"
 		(at 111.76 121.92 90)
 		(effects
@@ -6816,6 +6826,16 @@
 			(justify left bottom)
 		)
 		(uuid "b52b284d-6b50-4670-abfa-49b1e9d43690")
+	)
+	(label "door_sensor"
+		(at 96.52 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b65ae014-a31e-4341-b99e-fb6288b5a98b")
 	)
 	(label "drv882x_a1"
 		(at 246.38 143.51 180)
