@@ -5773,6 +5773,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 66.04) (xy 93.98 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "283588ff-596f-4761-aabe-cdda3c7bdd78")
+	)
+	(wire
+		(pts
 			(xy 210.82 93.98) (xy 217.17 93.98)
 		)
 		(stroke
@@ -7200,6 +7210,16 @@
 			(justify left bottom)
 		)
 		(uuid "b20bf7c7-f2e7-4766-82c1-88b143e10aaa")
+	)
+	(label "hw-416-sgn"
+		(at 95.25 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b30f8217-b596-4dde-bc06-ddbae9542427")
 	)
 	(label "ssd1306_scl"
 		(at 48.26 128.27 90)
