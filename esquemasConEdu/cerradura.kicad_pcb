@@ -10451,7 +10451,7 @@
 				(thickness 0.4)
 				(bold yes)
 			)
-			(justify bottom mirror)
+			(justify bottom)
 		)
 	)
 	(gr_text "JUMP1"
